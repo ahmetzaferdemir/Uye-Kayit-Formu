@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Azd Üye Kayıt Formu</title>
+  
+</head>
+
+<body>
+  
+  <div id="container">
+        
+        <div id="formalan">
+
+            <div id="formalanbanner">ÜYE KAYIT FORMU</div>
+
+            <img id="logo" src="resimler/azdlogo.png" alt="azdlogo" title="azdlogo" width="75">
+
+            <div id="uyeform">
+              <form id="azduyeform">
+                <table id="tablo">
+
+                  <tr><th>Ad Soyad</th></tr>
+                  <tr><td><input type="text" id="adsoyad" name="adsoyad"
+                  size="30" maxlength="30" autocomplete="off" placeholder="Örn; Ahmet Zafer Demir" required></td></tr>
+
+                  <tr><th>Email</th></tr>
+                  <tr><td><input type="email" id="email" name="email"
+                  size="30" autocomplete="off" placeholder="example@example.com" required></td></tr>
+
+                  <tr><th>Şehir</th></tr>
+                  <tr><td><select name="sehirler" required>
+                    <option>İzmir</option>
+                    <option>Afyonkarahisar</option>
+                    <option>Ankara</option>
+                    <option>İstanbul</option>
+                    <option>Eskişehir</option>
+                    <option>Kütahya</option>
+                  </select></td></tr>
+
+                  <tr><th>Telefon No</th></tr>
+                  <tr><td><input type="number" id="telno" name="telno"
+                  autocomplete="off" placeholder="05## ### ####" required></td></tr>
+
+                  <tr><td></td><td><button>Gönder</button></td><td><button>İptal</button></td></tr>
+
+              </form>
+            </div> 
+
+        </div>
+    
+   </div>
+    
+</body>
+
+</html>
